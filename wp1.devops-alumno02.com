@@ -1,7 +1,7 @@
 server {
     root /var/www/wordpress;
     index index.php index.html index.htm;
-    server_name terraform.devops-alumno02.com;
+    server_name wp1.devops-alumno02.com;
 
     access_log /var/log/nginx/subdominio_access.log;
     error_log /var/log/nginx/subdominio_error.log;
